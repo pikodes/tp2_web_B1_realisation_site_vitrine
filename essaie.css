@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+}
+
+/* En-tête avec bordure pointillée */
+.header-box {
+    border: 1px dashed #999;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.header-box h1 {
+    color: #243e4e;
+    margin-top: 0;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.header-box p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Grille des cartes */
+.pricing-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    border: 1px dashed #999;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header bleu de la carte */
+.card-header {
+    background-color: #243e4e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; /* Pousse le prix et le bouton vers le bas */
+}
+
+.card-body li {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    position: relative;
+}
+
+/* Petit rond avant chaque item */
+.card-body li::before {
+    content: "○";
+    position: absolute;
+    left: 0;
+    color: #999;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin: 25px 0 15px 0;
+}
+
+/* Bouton Rose */
+.btn {
+    background-color: #ff8e9e;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff7486;
+}
+
+/* Responsive pour mobiles */
+@media (max-width: 768px) {
+    .pricing-grid {
+        flex-direction: column;
+    }
+}
