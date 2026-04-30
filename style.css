@@ -1,0 +1,140 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(249, 249, 249);
+}
+header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+    height: 140px;
+    gap: 40px;
+}
+.header2{
+    background-color: rgb(255, 137, 153);
+    color: aliceblue;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    text-align: center;
+    flex-direction: row;
+}
+.carre1{
+    
+    width: 20%;
+    height: 100%;
+}
+.carre2{
+    
+    width: 120px;
+    height: 100%;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    text-align: center;
+    flex-direction: row;
+    background-color: rgb(249, 249, 249);
+}
+.carre3{
+    
+    width: 20%;
+    height: 100%;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    text-align: center;
+    flex-direction: row;
+}
+.carre4{
+    
+    width: 20%;
+    height: 100%;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    text-align: center;
+    flex-direction: row;
+}
+.carre5{
+    
+    width: 20%;
+    height: 100%;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    text-align: center;
+    flex-direction: row;
+}
+.one-person{
+    
+    height: 30%;
+}
+.server{
+    height: 30%;
+    
+
+}
+.cloud{
+    
+    height: 30%;
+}
+.message{
+    
+    height: 30%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+i{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(249, 249, 249);
+    width: 90%;
+    height: 100%;
+}
+.pp{
+    font-size: 40px;
+    color: rgb(255, 137, 153);
+}
+p{
+    color: rgb(28, 28, 66);
+}
+
+.carre2:hover .pp{
+   color: rgb(28, 28, 66);
+}
+.carre2:hover p{
+    color: rgb(255, 137, 153);
+}
+
+.carre3:hover .pp{
+   color: rgb(28, 28, 66);
+}
+.carre3:hover p{
+    color: rgb(255, 137, 153);
+}
+
+.carre4:hover .pp{
+   color: rgb(28, 28, 66);
+}
+.carre4:hover p{
+    color: rgb(255, 137, 153);
+}
+
+.carre5:hover .pp{
+   color: rgb(28, 28, 66);
+}
+.carre5:hover p{
+    color: rgb(255, 137, 153);
+}
